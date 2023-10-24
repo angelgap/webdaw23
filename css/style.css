@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color:rgb(3, 133, 3);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+nav li a {
+    color: green;
+}
+
+nav li:hover {
+    background-color:  rgb(225, 245, 253);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(0 157 222);
+}
+.bg-azul-c {
+    background-color: rgb(240, 249, 252);
+}
+.text-white {
+    color: white;
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.fuentem{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+} 
+.text-green{
+ color:greenyellow;   
+}
+.-bg{
+    background-color: rgb(255, 255, 255);
+}
+.shadow-g {
+    box-shadow: 0 0 40px greenyellow;
+    border-radius: 10px;}
+    .bg-brown{
+        background-color:rgb(108, 71, 36);
+    }
+    .fuente{
+        color:greenyellow;
+        background-color:rgb(108, 71, 36);
+    }
+    dt {
+        
+        color: greenyellow;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inline;
+    }
+    #ulcustomi ul{
+        list-style-image: disc;
+    }
+    #ulcustomi ul ul{
+        list-style-image: url(../img/arbol.png);
+    }
+
+    table.tcentered tr {
+        width: 60%;
+        margin: 0 auto;
+        background-color: rgb(244, 244, 244);
+        text-align: center;
+       
+         }
+.S1DAW{  width: 60%;
+         margin: 0 auto;
+            background-color: rgb(246, 246, 246); 
+            
+            text-align: center;
+        }
+    #FOL{
+        background-color:#F0F0C8;
+        color: black;
+        text-align: center;
+       
+    }
+    #ING{
+        background-color:#FFA264;
+        color: black;
+        text-align: center;
+       
+    }
+    #ENDE{
+        background-color:#28C8C8;
+        color: black;
+        text-align: center;
+       
+    }
+    #LMSG{
+        background-color:#FFD232;
+        color: black;
+        text-align: center;
+       
+    }
+    #PROG{
+        background-color:#BC7878;
+        color: black;
+        text-align: center;
+       
+    }
+    #SISI{
+        background-color:#B4B464;
+        color: black;
+        text-align: center;
+       
+    }
+    #BDD{
+        background-color:#FFC8C8;
+        color: black;
+        text-align: center;
+       
+    }
+    table.tcentered  {
+        width: 60%;
+        margin: 0 auto;
+        background-color: rgb(244, 244, 244);
+        text-align: center;
+         }
+table.tcolor tr th {
+    color:#007A7A;
+}
+table.tcolor tr td {
+    color:#007A7A;
+
+}
+#Cursi{
+    font-style: italic;
+    font-size: 26px;
+}                           
+table.tcentered th{
+    background-color: rgb(70, 116, 0);
+    font-size:20px;
+    color: greenyellow;
+}
+table.tcentered td{
+   color: green;
+}
+form.form-login{
+    width: 50%;
+    float:left;
+    padding: 0 35px;
+}
+form.form-login fieldset{
+    width: 60%;
+}
+form.form-registro{
+    width: 50%;
+    float:rigth;
+    padding: 0 35px;
+}
+.borrar{
+    clear: both;
+}
+form.form-HTML5{
+    width: 40%;
+    margin: 0 auto;
+}
+.btn {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.boton-verde{
+    background-color: green;
+    color: greenyellow;
+}
+.boton-html5{
+    background-color:rgb(108, 71, 36);
+    color: greenyellow;
+}
+form.form-HTML5 legend {
+    background-color: rgb(108, 71, 36);
+    color: greenyellow;
+    padding: 8px;
+    font-size: 20px;
+}
+form.form-HTML5 label {
+    background-color: green;
+    color: greenyellow;}

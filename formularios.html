@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/tronco.jpg" alt="tronco" width="150"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow-g">
+            <div class="px-3">
+                <h1 class="text-center bg-brown text-green py-3">Jardinería</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div id="formularios" class="p-3"> 
+                 <h2 class="text-center">FORMULARIOS</h2>
+                 <form action="kk.php" method="post" class="form-login">
+                    <h3>Formulario login</h3>
+                    <fieldset>
+                        <legend>Login</legend>
+                   
+                    <p>Nombre:<input type="text" name="name" id=""></p>
+                    <p>Contraseña:<input type="password" name="password" id=""></p>
+                    <p><input type="submit" value="Login" class="btn boton-verde"></p>
+                </fieldset>
+                </form>
+                <form action="kk.php" method="post" class="form-register">
+                    <h3>Formulario register</h3>
+                    <fieldset>
+                        <legend>
+                        Registro
+                        </legend>
+                    <p><input type="text" name="name" id="" placeholder="Nombre"></p>
+                    <p><input type="password" name="password" id="" placeholder="Contraseña"></p>
+                    <p><input type="submit" value="Login"></p>
+                    <p>Fecha de Nacimiento 
+                        <select name="día" id="">
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5</option>
+                         <option value="6">6</option>
+                         <option value="6">7</option>
+                         <option value="7">8</option>
+                         <option value="8">9</option>
+                         <option value="9">10</option>
+                         <option value="10">11</option>
+                         <option value="11">12</option>
+                         <option value="12">13</option>
+                         <option value="13">14</option>
+                         <option value="14">15</option>
+                         <option value="15">16</option>
+                         <option value="16">17</option>
+                         <option value="17">18</option>
+                         <option value="18">19</option>
+                         <option value="20">20</option>
+                         <option value="21">21</option>
+                         <option value="22">22</option>
+                         <option value="23">23</option>
+                         <option value="24">24</option>
+                         <option value="25">25</option>
+                         <option value="26">26</option>
+                         <option value="27">27</option>
+                         <option value="28">28</option>
+                         <option value="29">29</option>
+                         <option value="30">30</option>
+                         <option value="31">31</option>
+                        </select>
+                        <select name="mes" id="">
+                            <option value="1">Enero</option>
+                            <option value="2">Febrero</option>
+                            <option value="3">Marzo</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Mayo</option>
+                            <option value="6">Junio</option>
+                            <option value="7">Julio</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Septiembre</option>
+                            <option value="10">Octubre</option>
+                            <option value="11">Noviembre</option>
+                            <option value="12">Diciembre</option>
+                        </select>
+                        <select name="año" id="">
+                            <option value="1">2023</option>
+                            <option value="2">2024</option>
+                            <option value="3">2025</option>
+                            <option value="4">2026</option>
+                            <option value="5">2027</option>
+                        </select></p>
+                        <p>Comentarios: <br><textarea name="comentarios" id="comentarios" cols="50" rows="3"></textarea>
+                        <p>Seleccione los lenguajes que conoce: <br>
+                        <input type="checkbox" name="C">C <br>
+                        <input type="checkbox" name="JAVA"> JAVA <br>
+                        <input type="checkbox" name="C++"> C++ <br>
+                        <input type="checkbox" name="Python"> Python <br>
+                        </p>
+                        <p>Estado civil
+                        <input type="radio" name="ec"> Casad@ <br>
+                        <input type="radio" name="ec"> Solter@ <br>
+                        <input type="radio" name="ec"> Viud@ <br>
+                        <input type="radio" name="ec" >Otros <br>
+                        </p>
+                        <p>Provincia:  <br></p>
+                            <select name="provincia" id="" multiple size="5">
+                                <option value="1">Albacete</option>
+                                <option value="2">Toledo</option>
+                                <option value="3">Ciudad Real</option>
+                                <option value="4">Cuenca</option>
+                                <option value="5">Guadalajara</option>
+                            </select>
+                            <p>Foto: <input type="file" name="foto"></p>
+                            <p><input type="submit" value="Enviar" class="btn boton-verde"></p>
+
+                            </fieldset>
+                    </form>
+
+                       <div class="borrar"></div>
+                    <h3 class="text-center">FORMULARIOS CON ELEMENTOS HTML5</h3>
+                    <form action="kk.php" method="post" class="form-HTML5">
+                    <fieldset>
+                        <legend>Inputs HTML5</legend>
+                        <p><label for="">Color</label> <input type="color" name="SelectColor"></p>
+                        <p><label for="">Fecha</label> <input type="date" name="fecha"></p>
+                        <p><label for="">FechaHora-Local</label> <input type="datetime-local" name="fechaHora-local"></p>
+                        <p><label for="">Email</label> <input type="email" name="email"></p>
+                        <p><label for="">Mes</label> <input type="month" name="MEs"></p>
+                        <p><label for="">Numero</label> <input type="number" name="numero" step="4" min="4" max="60"></p>
+                        <p><label for="">Rango</label> <input type="range" name="rango" step="2" min="10" max="40"></p>
+                        <p><label for="">Hora</label> <input type="time" name="hora"></p>
+                        <p><label for="">Url</label> <input type="url" name="url"></p>
+                        <p><label for="">Semana</label> <input type="week" name="semana"></p>
+                        <p><input type="submit" value="Aceptar" class="btn boton-html5"></p>
+                    </form>
+
+                    </fieldset>
+
+            </div>
+        </main>
+        <footer class="shadow-g">
+            <h1 class="bg-brown text-center text-green py-3">&copy; Desarrollado por : Angel García-Page</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

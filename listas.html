@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/tronco.jpg" alt="tronco" width="150"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow-g">
+            <div class="px-3">
+                <h1 class="text-center bg-brown text-green py-3">Jardinería</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+                </div>
+            <div class="p-3">
+                <div id="listas" class="py-3">
+                 <h2 class="text-center">LISTAS</h2>
+                 <h2>Árboles</h2>
+                 <h3>Tipos de aroles</h3>
+                 <dl>
+                    <dt>Árboles de hoja perenne.</dt>
+                    <dd>Mantienen sus hojas durante el año.</dd>
+                    <dt>Áboles de hoja caduca.</dt>
+                    <dd>Durante los meses fríos pierden sus hojas.</dd>
+                    <dt>Áboles frutales.</dt>
+                    <dd>Árboles que producen frutos carnosos y que en su interior cuentan con semillas dentro de un hueso duro.</dd>
+                    <dt>Aboles ornamentales.</dt>
+                    <dd>Las especies ornamentales son aquellas que por sus cualidades estéticas se utilizan para adornar el entorno más inmediato o lugares comunes que por diversos motivos son decorados.</dd>
+                 </dl>
+                </div>
+                <h3>Tipos de Árboles</h3>
+                <div id="ulcustomi">
+                    <ul>
+                        <li>Hoja Perenne
+                            <ul>
+                                <li>Ciprés</li>
+                                <li>Pino</li>
+                                <li>Cedro</li>
+                                <li>Olivo</li>
+                            </ul>
+                        </li>
+                        <li>Hoja Caduca
+                            <ul>
+                                <li>Nogal</li>
+                                <li>Almendro</li>
+                                <li>Cerezo</li>
+                                <li>Fresno</li>
+                            </ul>
+                        </li>
+                        <li>Frutales
+                            <ul>
+                                <li>Naranjo</li>
+                                <li>Limonero</li>
+                                <li>Mandarino</li>
+                                <li>Higuera</li>
+                            </ul>
+                        </li>
+                        <li>Ornamentales
+                            <ul>
+                                <li>Helecho</li>
+                                <li>Arce</li>
+                                <li>Palmera</li>
+                                
+                            </ul>
+                        </li>                        
+
+
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="shadow-g">
+            <h1 class="bg-brown text-center text-green py-3">&copy; Desarrollado por : Angel García-Page</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
